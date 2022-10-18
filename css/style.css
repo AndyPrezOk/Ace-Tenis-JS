@@ -11,9 +11,7 @@ body {
     
 }
 
-img {
-    width: 100%;
-}
+
 .blanco{
 
     color: azure;
@@ -45,7 +43,7 @@ img {
     margin-top: 1rem;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
  
 
@@ -59,8 +57,8 @@ img {
 }
 
 
-.img-clase {
-    height: 200px;
+.img_clase {
+    height: 300px;
     object-fit: cover;
     object-position: center;
 }
